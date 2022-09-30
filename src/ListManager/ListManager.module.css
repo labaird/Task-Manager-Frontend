@@ -1,0 +1,16 @@
+.error {
+    color: red;
+}
+
+.TaskManagerContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.Lists {
+    margin: 64px;
+}

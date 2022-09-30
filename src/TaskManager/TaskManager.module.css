@@ -1,0 +1,17 @@
+.TaskManager {
+    border: 1px solid black;
+}
+
+.TaskManagerHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.TaskManagerHeader > h2 {
+    margin: 8px;
+}
+
+.TaskManagerHeader > h3 {
+    margin: 8px;
+}

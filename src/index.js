@@ -1,13 +1,17 @@
-import React from 'react';
+import React, {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import {ListManager} from "./ListManager/ListManager";
+import {TaskListStore} from "./TaskListStore";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+const taskListStore = new TaskListStore();
+
 root.render(
   <React.StrictMode>
-    <App />
+    <ListManager taskListStore={taskListStore}/>
   </React.StrictMode>
 );
 

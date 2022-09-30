@@ -1,0 +1,18 @@
+.inputDataCell {
+    position: relative;
+}
+
+.warning {
+    position: absolute;
+    top: 3px;
+    right: 5px;
+    color: red;
+}
+
+.error {
+    border: 1px solid red;
+}
+
+.error:focus {
+    outline-color: red;
+}
